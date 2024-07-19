@@ -66,7 +66,7 @@ class ChatbotResponse() :
     def get_vector_store(text_chunks):
         embeddings = GoogleGenerativeAIEmbeddings(model = "models/embedding-001")
         vector_store = FAISS.from_texts(text_chunks, embedding=embeddings)
-        vector_store.save_local("faiss_index")
+        vector_store.save_local("vector_db")
     
 
     ## Get the Conversation
@@ -100,7 +100,7 @@ class ChatbotResponse() :
 
         embeddings = GoogleGenerativeAIEmbeddings(model = "models/embedding-001")
 
-        new_db = FAISS.load_local("faiss_index", embeddings,allow_dangerous_deserialization=True)
+        new_db = FAISS.load_local("vector_db", embeddings,allow_dangerous_deserialization=True)
         
         docs = new_db.similarity_search(user_message)
 
