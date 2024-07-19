@@ -70,7 +70,7 @@ This project aims to build a chatbot that responds to custom data. The Chatbot w
    ```bash
    venv\Scripts\activate
    ```
-4 Install the dependencies:
+4. Install the dependencies:
    ```bash
    pip install -r requirements.txt
    ```
