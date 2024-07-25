@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./index.css";
 import { TypeAnimation } from "react-type-animation";
+import 'regenerator-runtime/runtime';
 
 const Message = ({ message }) => {
   const isBot = message.role === "bot";

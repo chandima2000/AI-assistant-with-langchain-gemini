@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "chatapp",
+    'voiceapp',
     'rest_framework',
     'corsheaders',
 ]

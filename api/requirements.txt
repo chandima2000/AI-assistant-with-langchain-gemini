@@ -7,3 +7,5 @@ langchain
 PyPDF2
 faiss-cpu
 langchain_google_genai
+SpeechRecognition
+pyttsx3
