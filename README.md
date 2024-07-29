@@ -1,4 +1,4 @@
-# Custom AI Chatbot
+# Custom AI Assistant (Voice + Chat)
 
 This project aims to build a chatbot & Voice Assistant that responds to the custom data. The Chatbot works with a specific domain related to the IT Industry. The interface is built with React and styled using Tailwind CSS. The backend is powered by Django, and it integrates with Google Generative AI for processing PDF documents to provide responses.
  
