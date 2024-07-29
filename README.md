@@ -1,6 +1,6 @@
 # Custom AI Chatbot
 
-This project aims to build a chatbot that responds to custom data. The Chatbot works with a specific domain related to the IT Industry. The interface is built with React and styled using Tailwind CSS. The backend is powered by Django, and it integrates with Google Generative AI for processing PDF documents to provide responses.
+This project aims to build a chatbot & Voice Assistant that responds to the custom data. The Chatbot works with a specific domain related to the IT Industry. The interface is built with React and styled using Tailwind CSS. The backend is powered by Django, and it integrates with Google Generative AI for processing PDF documents to provide responses.
  
 ## Features
 
@@ -15,6 +15,7 @@ This project aims to build a chatbot that responds to custom data. The Chatbot w
 ### Frontend
 
 - React
+- react-speech-recognition
 - Tailwind CSS
 
 ### Backend
